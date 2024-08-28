@@ -46,7 +46,7 @@ class Contact extends Component {
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
                   <Button
-                    text="See My Resume"
+                    text="Résumé"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
@@ -67,14 +67,14 @@ class Contact extends Component {
                 >
                   {blogSection["subtitle"]}
                 </p>
-                <div className="blogsite-btn-div">
+                {/* <div className="blogsite-btn-div">
                   <Button
                     text="Visit My Blogsite"
                     newTab={true}
                     href={blogSection.link}
                     theme={theme}
                   />
-                </div>
+                </div> */}
               </div>
               <div className="blog-heading-img-div">
                 {/* <img
